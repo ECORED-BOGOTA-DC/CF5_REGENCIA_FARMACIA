@@ -111,22 +111,22 @@ export default {
       },
     ],
     subMenu: [
-      //{
-      //  nombreRuta: 'actividad',
-      //  icono: 'far fa-question-circle',
-      //  titulo: 'Actividad didáctica',
-      //  desarrolloContenidos: true,
-      //},
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      //{
-      //  nombreRuta: 'complementario',
-      //  icono: 'far fa-folder-open',
-      //  titulo: 'Material complementario',
-      //},
+      {
+        nombreRuta: 'complementario',
+        icono: 'far fa-folder-open',
+        titulo: 'Material complementario',
+      },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -146,30 +146,35 @@ export default {
   },
   complementario: [
     {
-      texto:
+      tema: '',
+      referencia:
         'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
       tipo: 'Video',
       link: 'https://www.google.com/',
     },
     {
-      texto:
+      tema: '',
+      referencia:
         'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
       tipo: 'Página web',
       descarga: '/downloads/prueba.pdf',
     },
     {
-      texto:
+      tema: '',
+      referencia:
         'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
       tipo: 'Artículo científico',
       link: 'https://www.google.com/',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
+      tema: '',
+      referencia: 'Economía de Rosquilla. (s.f.).',
       tipo: 'Página web',
       descarga: '/downloads/prueba.pdf',
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+      tema: '',
+      referencia: '2 minutos para entender el desarrollo sostenible – Spanish',
       tipo: 'Video',
       link: 'https://www.google.com/',
     },
