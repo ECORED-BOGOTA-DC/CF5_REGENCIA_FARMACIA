@@ -3,28 +3,37 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.pb-0.mb-0
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
       h1 Riesgo y peligro
     .row.align-items-center.bg-color7.pt-5.px-5.mb-5
-      .col-lg-8.mb-4.mb-lg-0
+      .col-lg-8.mb-4.mb-lg-5
         .h5 ¿Sabías que el riesgo es la posibilidad que se presenta para convertir una amenaza en una desgracia?
         .cajon.color-primario.p-4.mb-4
           p.mb-0 Es importante comprender que la vulnerabilidad o la intimidación, por separado, no representan ningún tipo de peligro pero, si se combinan, se convierten en un riesgo, o sea, en la posibilidad para que un desastre se manifieste.
-        p La siguiente imagen nos presenta una representación gráfica de lo explicado anteriormente.
+        p.mb-5 La siguiente imagen nos presenta una representación gráfica de lo explicado anteriormente.
+
+        .titulo-sexto.color-primario.mb-4
+          h5 Figura 2
+          span Riesgo
+
         figure
-          img(src='@/assets/curso/img29.svg', style='width: 750px').m-auto
+          img(src='@/assets/curso/img29.svg', style='width: 750px', alt='Imágen decorativa').m-auto
+
+        p.text-center Nota. Sena (2021)
+
+
       .col-lg-4
         figure(data-aos="fade-left")
-          img(src='@/assets/curso/img9.png', style='width: 270px').m-auto
+          img(src='@/assets/curso/img9.png', style='width: 270px', alt='Imágen decorativa').m-auto
       .col-12.mt-4
         p Ahora, el peligro es una condición o particularidad sustancial, que puede llegar a ocasionar lesión o enfermedad, daño a la propiedad y/o paralización de un proceso; en cambio, el riesgo es la combinación de la posibilidad y la consecuencia de no controlar el peligro.
-        p.mb-5 Al evaluar los riesgos presentes, en el lugar de la emergencia, es fundamental tener en cuenta tanto el suceso en sí mismo, como las condiciones del tráfico, de las personas presentes y de las vías de acceso.También pueden manifestarse otros riesgos asociados y amenazas relacionadas, tales como:
+        p.mb-5 Al evaluar los riesgos presentes, en el lugar de la emergencia, es fundamental tener en cuenta tanto el suceso en sí mismo, como las condiciones del tráfico, de las personas presentes y de las vías de acceso. También pueden manifestarse otros riesgos asociados y amenazas relacionadas, tales como:
       .row
         .col-lg-4
           figure(data-aos="fade-right").mb-4.mb-lg-0
-            img(src='@/assets/curso/img33.svg', style='width: 270px').m-auto
+            img(src='@/assets/curso/img33.svg', style='width: 270px', alt='Imágen decorativa').m-auto
         .col-lg-8
           LineaTiempoD.color-secundario
             p.text-small(numero="1" titulo="Riesgo eléctrico") Se caracteriza por la caída de cables eléctricos en el escenario de la emergencia.            
@@ -38,7 +47,7 @@
     separador.mb-5
     #t_3_1
     .row.align-items-center.bg-color3.px-5.pt-0
-      .titulo-segundo
+      .titulo-segundo.color-acento-contenido
         h2 3.1 Asegurar el área
       p La seguridad de la situación no solo implica protección para el responsable del rescate, sino también para el paciente.
       p Según los peligros asociados, los factores de riesgo y las amenazas vinculadas, se debe decidir la competencia para controlarlos de manera eficiente. Si se considera apto para controlar todos los riesgos existentes y posee el equipo necesario, debe seguir los procedimientos propios de cada evento para asegurar el área, y reubicar el transporte a la mayor distancia recomendada para cada evento. Si no conoce o tiene dudas, permanezca dentro del vehículo y alerte a las entidades competentes.
@@ -46,25 +55,25 @@
       .row.justify-content-center
         .col-lg-10
           .tarjeta-avatar-b.mb-5
-            img(src='@/assets/curso/img30.svg' alt='AvatarTop')
+            img(src='@/assets/curso/img30.svg' alt='Imágen decorativa')
             .tarjeta.tarjeta--azul
               .p-4
-                h2 Control público
+                h2 Control del público
                 p Uno de los factores que puede obstaculizar la correcta administración de la emergencia, lo compone la presencia de espectadores en la escena; para solucionarlo, se debe procurar ubicarlos fuera de la zona de impacto o área crítica.
           .tarjeta-avatar-b.mb-5
-            img(src='@/assets/curso/img31.svg' alt='AvatarTop')
+            img(src='@/assets/curso/img31.svg' alt='Imágen decorativa')
             .tarjeta.tarjeta--azul
               .p-4
                 h2 Iluminación
                 p En algunas ocasiones, particularmente en horas nocturnas, es importante que la zona de impacto se encuentre debidamente iluminada; el primer respondiente puede utilizar linternas, o las mismas luces de los vehículos pueden servir para iluminar el área.
           .tarjeta-avatar-b.mb-5
-            img(src='@/assets/curso/img32.svg' alt='AvatarTop')
+            img(src='@/assets/curso/img32.svg' alt='Imágen decorativa')
             .tarjeta.tarjeta--azul
               .p-4
                 h2 Delimitación y señalización
                 p La labor de delimitación del área de riesgo, debe llevarse a cabo por el conductor, quien utilizará señales luminosas, conos, cintas o banderas reflectivas y debe dejar acceso para otros vehículos que ayuden con la emergencia. La delimitación debe incluir la zona de impacto o área crítica (donde solo deben acceder los grupos de salvamento, búsqueda y rescate) el puesto de avanzada (en el límite de la anterior), lugar donde se ubica el primer nivel de mando, y la zona de seguridad, que permita delimitar el acceso a curiosos y a personas que no sean precisas en el manejo de la emergencia.
     figure.mb-5(data-aos="fade-left")
-      img(src='@/assets/curso/img34.svg', style='width: 1200px').m-auto
+      img(src='@/assets/curso/img34.svg', style='width: 1200px', alt='Imágen decorativa').m-auto
     .cajon.color-primario.p-4.mb-4
       p.mb-0 #[b #[i En general, los pacientes que se encuentren en situación de peligro, deben ser movilizados a un lugar seguro antes de empezar la valoración y el tratamiento.]]
     p Si se encuentra en situaciones de violencia, asonada, aglomeración en pánico o estampida, es imperativo prepararse de inmediato para abandonar el lugar.
@@ -86,11 +95,11 @@
               p El profesional prehospitalario puede llegar a necesitar defenderse. Es fundamental que los esfuerzos se limiten a «liberarse y huir». No intentar perseguir o vencer a un adversario agresivo. Asegure que los profesionales de la ley reciban el aviso respectivo y acudan para atenderlo. En esta oportunidad, la seguridad de los profesionales también es la máxima prioridad”.
       .col-lg-4
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/img35.svg', style='width: 270px').m-auto
+          img(src='@/assets/curso/img35.svg', style='width: 270px', alt='Imágen decorativa').m-auto
     separador.mb-5
     .row.align-items-center.bg-color3.px-5.pt-0
       #t_3_2
-      .titulo-segundo
+      .titulo-segundo.color-acento-contenido
         h2 3.2 Valoración del entorno
       .row.justify-content-center
         .col-11
@@ -98,7 +107,7 @@
             .row.m-0.align-items-center.justify-content-between
               .col-lg-3.mb-4.mb-lg-0
                 figure
-                  img(src='@/assets/curso/img36.svg', style='width: 270px').m-auto
+                  img(src='@/assets/curso/img36.svg', style='width: 270px', alt='Imágen decorativa').m-auto
               .col-lg-9
                 .bloque-texto-a__texto.p-4
                   p Cuando nos encontramos ante un accidente o evento catastrófico, es importante valorar el entorno en el que se presenta la situación, y para hacerlo se sugieren dos pasos: análisis de la situación y localización de peligros latentes. Analicemos cada una de ellas.
@@ -145,9 +154,9 @@
                     | ¿Se necesita equipo de rescate vehicular para la extracción de personas atrapadas?
               .col-lg-6
                 figure(data-aos="fade-left").mb-4.mb-lg-0
-                  img(src='@/assets/curso/img37.svg', style='width: 350px').m-auto
+                  img(src='@/assets/curso/img37.svg', style='width: 350px', alt='Imágen decorativa').m-auto
             p Cuando se activa el servicio de emergencias médicas, es fundamental dar la información clara y precisa al radioperador; de esta manera la respuesta a la emergencia puede ser mucho más rápida y eficiente.
-        div(titulo="Localización de peligros latantes")
+        div(titulo="Localización de peligros latentes")
           .row
             .col-12
               p Un principio esencial al acceder a la zona de impacto, en una emergencia, es el de evitar que los acontecimientos desfavorables aporten efectos secundarios que puedan afectar al personal de seguridad, al de socorro y al de atención prehospitalaria, que han acudido a prestar asistencia a las víctimas potenciales. 
@@ -155,7 +164,7 @@
               .row.align-items-center
                 .col-3
                   figure
-                    img(src='@/assets/curso/img38.svg', style='width: 250px').m-auto
+                    img(src='@/assets/curso/img38.svg', style='width: 250px', alt='Imágen decorativa').m-auto
                 .col-9
                   p.mb-4 Este procedimiento se realiza mediante la adopción de medidas de precaución y técnicas de restricción y señalización del área, así como también con la distribución idónea de las funciones para cada uno de los integrantes del equipo de respuesta a la emergencia.
                   .cajon.color-primario.p-4

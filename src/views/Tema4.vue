@@ -4,24 +4,32 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     .row.align-items-center.bg-color9.px-5.mb-5
-      .titulo-principal
+      .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 4
         h1 Accidentes
       .row.align-items-center
         .col-lg-4.mb-4.mb-lg-0
           figure(data-aos="fade-left")
-            img(src='@/assets/curso/img10.png', style='width: 350px').m-auto
+            img(src='@/assets/curso/img10.png', style='width: 350px', alt='Imágen decorativa').m-auto
         .col-lg-8
           .row.px-4
             .col-12.p-5.bg-color5
               p.mb-0 La Organización Mundial de la Salud, define a un accidente como: un acontecimiento imprevisto, independiente de la voluntad humana, incitado por una fuerza exterior que actúa rápidamente y se manifiesta por la aparición de lesiones orgánicas o trastornos mentales.
-            img(src='@/assets/curso/img13.png', style='width: 270px; position: relative; left: 50%; bottom: 30px;')
+            img(src='@/assets/curso/img13.png', style='width: 270px; position: relative; left: 50%; bottom: 30px;', alt='Imágen decorativa')
           .cajon.color-primario.p-4.mb-4
             p.mb-0 De acuerdo con el registro de llamadas a la línea 123, en el 2016, en ciudades como Bogotá, Medellín y Barranquilla, se determinó la tasa de incidencia de los diferentes tipos de accidentes, de la siguiente manera:
         .col-12
+
+          .titulo-sexto.color-primario.mb-4
+            h5 Figura 3
+            span Causas de llamadas a la Línea 123 durante 2016
+
           figure(data-aos="fade-right")
-            img(src='@/assets/curso/img40.svg', style='width: 950px').m-auto
+            img.mb-3(src='@/assets/curso/img40.svg', alt='Imágen decorativa')
+            figcaption Fuente: Subdirección del Centro Regulador de Urgencias y Emergencias    
+    
+    
     p.mb-5 Los accidentes pueden ser de diferentes tipos:
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Accidentes domésticos")
@@ -33,35 +41,35 @@
               .row.align-items-center
                 .col-auto.d-inline
                   figure
-                    img(src='@/assets/curso/img41.svg', style='width: 100px').m-auto
+                    img(src='@/assets/curso/img41.svg', style='width: 100px', alt='Imágen decorativa').m-auto
                 .col
                   p.mb-0 Las caídas, debido a suelos resbaladizos, al tratar de alcanzar objetos de forma inadecuada (con una silla, por ejemplo, en lugar de una escalera).
               hr
               .row.align-items-center
                 .col-auto.d-inline
                   figure
-                    img(src='@/assets/curso/img42.svg', style='width: 100px').m-auto
+                    img(src='@/assets/curso/img42.svg', style='width: 100px', alt='Imágen decorativa').m-auto
                 .col
                   p.mb-0 Las intoxicaciones con los productos de limpieza mal etiquetados, reembolsados o al alcance de los niños. También se presentan por mal almacenamiento de medicamentos.
               hr
               .row.align-items-center
                 .col-auto.d-inline
                   figure
-                    img(src='@/assets/curso/img43.svg', style='width: 100px').m-auto
+                    img(src='@/assets/curso/img43.svg', style='width: 100px', alt='Imágen decorativa').m-auto
                 .col
                   p.mb-0 Las quemaduras suelen estar ocasionadas por el contacto o la proyección de objetos y/o líquidos a temperaturas elevadas.
               hr
               .row.align-items-center
                 .col-auto.d-inline
                   figure
-                    img(src='@/assets/curso/img44.svg', style='width: 100px').m-auto
+                    img(src='@/assets/curso/img44.svg', style='width: 100px', alt='Imágen decorativa').m-auto
                 .col
                   p.mb-0 La electrocución puede ocasionarse cuando se manipulan, de forma incorrecta, los elementos eléctricos, introducción de pinzas o ganchos en los enchufes.
               hr
               .row.align-items-center
                 .col-auto.d-inline
                   figure
-                    img(src='@/assets/curso/img45.svg', style='width: 100px').m-auto
+                    img(src='@/assets/curso/img45.svg', style='width: 100px', alt='Imágen decorativa').m-auto
                 .col
                   p.mb-0 Los golpes producidos generalmente con objetos fijos, como, por ejemplo, muebles, puertas y ventanas.
               hr
@@ -77,7 +85,7 @@
                   i.fas.fa-quote-right.d-flex.justify-content-end
           p.mb-5 Los tipos de accidentes de tránsito que se presentan con mayor frecuencia son:
           figure.mb-5
-            img(src='@/assets/curso/img46.svg', style='width: 950px').m-auto
+            img(src='@/assets/curso/img46.svg', style='width: 950px', alt='Imágen decorativa').m-auto
           .cajon.color-primario.p-4.mb-4
             p.mb-0 Los accidentes de tránsito son la séptima causa de morbilidad en el planeta y la primera causa de muerte de las personas menores de 40 años a escala mundial. En promedio, 1,3 millones de personas en el mundo mueren al año por accidentes de tránsito.
           p La mayoría de los accidentes de tránsito tienen un factor de riesgo en común, el FACTOR HUMANO:
@@ -121,7 +129,7 @@
               .row.justify-content-center.mb-5
                 .col-4
                   figure
-                    img(src='@/assets/curso/img47.svg', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/img47.svg', alt='Imágen decorativa')
               h3.text-center.mb-5 Los factores mecánicos
               .row.justify-content-center.mb-5
                 .col-8
@@ -139,7 +147,7 @@
               .row.justify-content-center.mb-5
                 .col-4
                   figure
-                    img(src='@/assets/curso/img48.svg', alt='Texto que describa la imagen')
+                    img(src='@/assets/curso/img48.svg', alt='Imágen decorativa')
               h3.text-center.mb-5 Los factores climáticos
               .row.justify-content-center.mb-5
                 .col-6
@@ -165,22 +173,22 @@
             p De acuerdo con el Artículo 3 de la Ley 1562 de 2012, se define a los accidentes laborales como: todo acontecimiento repentino que se presente por causa o con ocasión del trabajo, y que provoque en el trabajador una lesión orgánica, una perturbación funcional o psiquiátrica, una invalidez o la muerte. Los 5 sectores económicos que concentran la mayor parte de los accidentes laborales son: minas y canteras, transporte, almacenamiento y comunicaciones, construcción, agricultura, ganadería, caza y silvicultura e inmobiliario.
           .col-lg-4
             figure
-              img(src='@/assets/curso/img49.svg', style='width: 350px').m-auto
-      .row(titulo="Accidents deportivos")
+              img(src='@/assets/curso/img49.svg', style='width: 350px', alt='Imágen decorativa').m-auto
+      .row(titulo="Accidentes deportivos")
         .row.justify-content-center
           p Son lesiones corporales traumáticas que tienen su origen en una causa ajena a la voluntad del deportista, externa, fortuita, súbita y violenta.
           .col-10
             .row.align-items-center
               .col-auto.d-inline
                 figure
-                  img(src='@/assets/curso/img50.svg', style='width: 100px').m-auto
+                  img(src='@/assets/curso/img50.svg', style='width: 100px', alt='Imágen decorativa').m-auto
               .col
                 p.mb-0 Por ejemplo, una caída, un impacto contra un objeto -como el poste de una portería- o un choque entre dos deportistas, son ciertamente accidentes deportivos.
             hr
             .row.align-items-center
               .col-auto.d-inline
                 figure
-                  img(src='@/assets/curso/img51.svg', style='width: 100px').m-auto
+                  img(src='@/assets/curso/img51.svg', style='width: 100px', alt='Imágen decorativa').m-auto
               .col
                 p.mb-0 Además, se pueden encontrar las lesiones deportivas, que son el resultado de estados crónicos o patológicos como consecuencia de la práctica de cualquier deporte.
             hr

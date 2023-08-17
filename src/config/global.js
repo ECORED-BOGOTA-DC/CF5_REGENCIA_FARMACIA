@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Sistema de emergencias médicas colombianas',
     descripcionCurso:
-      'En este componente formativo se abordan los conocimientos de la competencia de asistencia como primer respondiente, la cual busca que los aprendices reconozcan y apliquen la normativa del sistema de emergencias médicas en Colombia, durante la atención responsable y oportuna como primer respondiente, ante situaciones de enfermedad súbita o lesiones en clientes o usuarios al servicio farmacéutico/ droguería.',
+      'En este componente formativo se abordan los conocimientos de la competencia de asistencia como primer respondiente, la cual busca que los aprendices reconozcan y apliquen la normativa del sistema de emergencias médicas en Colombia, durante la atención responsable y oportuna como primer respondiente, ante situaciones de enfermedad súbita o lesiones en clientes o usuarios al servicio farmacéutico / droguería.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -112,6 +112,12 @@ export default {
     ],
     subMenu: [
       {
+        icono: 'fas fa-sitemap',
+        titulo: 'Síntesis',
+        nombreRuta: 'sintesis',
+        desarrolloContenidos: true,
+      },
+      {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
@@ -131,6 +137,11 @@ export default {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
+      },
+      {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/prueba.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -202,7 +213,7 @@ export default {
     },
     {
       termino: 'CRUE',
-      significado: 'Centro Regulador de Urgencias y Emergencias.',
+      significado: ' Centro Regulador de Urgencias y Emergencias.',
     },
     {
       termino: 'Emergencia',
@@ -221,7 +232,7 @@ export default {
     },
     {
       termino: 'NUSE',
-      significado: 'Número Único de Seguridad y Emergencias.',
+      significado: ' Número Único de Seguridad y Emergencias.',
     },
     {
       termino: 'Primer auxilio',
@@ -236,7 +247,7 @@ export default {
     {
       termino: 'SEM',
       significado:
-        'Sistema de Emergencias Médicas. Modelo general integrado de coordinación no asistencial y operadores asistenciales, con el propósito de responder de manera oportuna a las víctimas de enfermedad, paros cardiorrespiratorios, accidentes de tránsito o traumatismos que requieran atención médica de urgencias, en lugares públicos y privados.',
+        ' Sistema de Emergencias Médicas. Modelo general integrado de coordinación no asistencial y operadores asistenciales, con el propósito de responder de manera oportuna a las víctimas de enfermedad, paros cardiorrespiratorios, accidentes de tránsito o traumatismos que requieran atención médica de urgencias, en lugares públicos y privados.',
     },
     {
       termino: 'Traumatismo',
@@ -292,15 +303,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
+          nombre: 'Liliana Victoria Morales Gualdró',
+          cargo: 'Responsable de línea de producció',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
       ],
     },
@@ -308,10 +319,40 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Emilia Sarmiento Mora',
+          cargo: 'Profesional Experta Temática',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia. ',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo:
+            'Diseñadora Instruccional - Revisora Metodológica y Pedagógica',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander.',
+        },
+        {
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Revisión y corrección de estilo',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Gloria Lida Alzáte Suárez',
+          cargo: 'Adecuación instrucciona',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
       ],
     },
@@ -319,28 +360,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Jesús Antonio Vecino Valero',
+          cargo: 'Diseño web',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Manuel Felipe Echavarría Orozco',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Lady Adriana Ariza Luque',
+          cargo: 'Animación y Producción audiovisual',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animación y producción audiovisual',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
       ],
     },
@@ -348,22 +395,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
       ],
     },

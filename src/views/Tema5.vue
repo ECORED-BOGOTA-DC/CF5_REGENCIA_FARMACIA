@@ -3,26 +3,31 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
       h1 Botiquín
     .row.align-items-center.bg-color4.pt-5.px-5.mb-5
       .col-lg-7
         .tarjeta-avatar-b.mb-5
-          img(src='@/assets/curso/img52.svg' alt='AvatarTop')
+          img(src='@/assets/curso/img52.svg' alt='Imágen decorativa')
+          .tarjeta.tarjeta--azul(style="border: 3px dashed;")
+            .p-4
+              p El Botiquín es el conjunto de materiales, equipo y antisépticos que se utilizan para aplicar los primeros auxilios a un individuo que ha sufrido de un accidente o de una enfermedad súbita.
+        .tarjeta-avatar-b.mb-5
+          img(src='@/assets/curso/img53.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta--azul(style="border: 3px dashed;")
             .p-4
               p Es importante que el primer respondiente se prepare para la atención inicial de urgencias y tenga un botiquín de primeros auxilios en su casa, edificio o empresa.
         .tarjeta-avatar-b
-          img(src='@/assets/curso/img53.svg' alt='AvatarTop')
+          img(src='@/assets/curso/img53-2.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta--azul(style="border: 3px dashed;")
             .p-4
               p El modelo de botiquín se organiza de acuerdo con el tipo de actividad que se vaya a desarrollar, o el sitio en el cual se localiza.
       .col-lg-5
         figure(data-aos="fade-left")
-          img(src='@/assets/curso/img11.png', style='width: 350px').m-auto
-    p.mb-5 Los accidentes pueden ser de diferentes tipos: 
+          img(src='@/assets/curso/img11.png', style='width: 350px', alt='Imágen decorativa').m-auto
+    p.mb-5 Los componentes de un botiquín son: 
     .row
       .col-lg-6.mb-5.mb-lg-0
         figure(data-aos="fade-right")
@@ -59,7 +64,7 @@
     .row.align-items-center.bg-color2.px-5
       p.my-5 Además, se recomienda tener en el lugar de trabajo, tablas espinales, collares, material de inmovilización y bioseguridad.
       .row.align-items-center.mb-5(data-aos="fade-left")
-        img(src='@/assets/curso/img55.svg', style='width: 131px').px-0
+        img(src='@/assets/curso/img55.svg', style='width: 131px', alt='Imágen decorativa').px-0
         .col.p-4.bg-color10
           p #[b Precaución]:
           ul.lista-ul.ms-5.mb-4
