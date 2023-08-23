@@ -190,7 +190,7 @@
             figure
               img(src='@/assets/curso/img14.svg', style='width: 300px', alt='Imágen decorativa').m-auto
           .col-8
-            p.mb-0 Cuando el entorno engendra situaciones que no pueden ser controladas como, por ejemplo, una emergencia en la que se ha visto afectada la salud de una persona, o se presentan posibilidades de afectación, el instinto de supervivencia humano se activa y, en alguna oportunidad, las mismas acciones de los involucrados pueden llegar a ser instintivas, impidiendo identificar peligros del entorno y la situación real del lesionado (efecto túnel) El autocontrol contribuye a mantener la calma; esto quiere decir que durante una emergencia, en la cual se desea participar como auxiliador, antes de obrar, debe detenerse, pensar en cuáles son las acciones correctas a ejecutar y actuar con precaución.
+            p.mb-0 Cuando el entorno engendra situaciones que no pueden ser controladas como, por ejemplo, una emergencia en la que se ha visto afectada la salud de una persona, o se presentan posibilidades de afectación, el instinto de supervivencia humano se activa y, en alguna oportunidad, las mismas acciones de los involucrados pueden llegar a ser instintivas, impidiendo identificar peligros del entorno y la situación real del lesionado (efecto túnel). El autocontrol contribuye a mantener la calma; esto quiere decir que durante una emergencia, en la cual se desea participar como auxiliador, antes de obrar, debe detenerse, pensar en cuáles son las acciones correctas a ejecutar y actuar con precaución.
       div(titulo="Respeto")
         .row
           .col-12
