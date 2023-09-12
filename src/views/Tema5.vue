@@ -9,17 +9,17 @@
       h1 Botiquín
     .row.align-items-center.bg-color4.pt-5.px-5.mb-5
       .col-lg-7
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-5(data-aos="fade-right")
           img(src='@/assets/curso/img52.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta--azul(style="border: 3px dashed;")
             .p-4
               p El Botiquín es el conjunto de materiales, equipo y antisépticos que se utilizan para aplicar los primeros auxilios a un individuo que ha sufrido de un accidente o de una enfermedad súbita.
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-5(data-aos="fade-right")
           img(src='@/assets/curso/img53.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta--azul(style="border: 3px dashed;")
             .p-4
               p Es importante que el primer respondiente se prepare para la atención inicial de urgencias y tenga un botiquín de primeros auxilios en su casa, edificio o empresa.
-        .tarjeta-avatar-b
+        .tarjeta-avatar-b(data-aos="fade-right")
           img(src='@/assets/curso/img53-2.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta--azul(style="border: 3px dashed;")
             .p-4
@@ -62,7 +62,7 @@
             .col-12
               p Guantes desechables, tapabocas, linterna, tijeras, termómetro digital, lista de teléfonos de emergencia, incluidos los de la EPS y la ARL, férulas o tablillas, inmovilizadores o cabestrillos, bolsas plásticas para desechos.
     .row.align-items-center.bg-color2.px-5
-      p.my-5 Además, se recomienda tener en el lugar de trabajo, tablas espinales, collares, material de inmovilización y bioseguridad.
+      p.my-5(data-aos="fade-left") Además, se recomienda tener en el lugar de trabajo, tablas espinales, collares, material de inmovilización y bioseguridad.
       .row.align-items-center.mb-5(data-aos="fade-left")
         img(src='@/assets/curso/img55.svg', style='width: 131px', alt='Imágen decorativa').px-0
         .col.p-4.bg-color10

@@ -7,44 +7,44 @@
       .titulo-principal__numero
         span 1
       h1 Normatividad legal vigente para el primer respondiente
-    p.mb-5 ¿Sabías que todos los días, los individuos y la comunidad, en general, están sujetos a una enorme cantidad de intimidaciones de procedencia natural y a otras tantas más, provocadas por los seres humanos?
+    p.mb-5(data-aos="fade-right") ¿Sabías que todos los días, los individuos y la comunidad, en general, están sujetos a una enorme cantidad de intimidaciones de procedencia natural y a otras tantas más, provocadas por los seres humanos?
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-11
         .row.justify-content-center.align-items-center
-          .col-7.col-lg-4
+          .col-7.col-lg-4(data-aos="flip-down")
             figure
-              img(src='@/assets/curso/img2-1.svg', alt='Imágen decorativa')
+              img(src='@/assets/curso/img2-1.svg', alt='Imágenes de personas accidentadas recibiendo atención médica.')
 
-          .col-7.col-lg-4
+          .col-7.col-lg-4(data-aos="flip-down")
             figure
-              img(src='@/assets/curso/img2-2.svg', alt='Imágen decorativa')
+              img(src='@/assets/curso/img2-2.svg', alt='Imágenes de personas accidentadas recibiendo atención médica.')
 
-          .col-7.col-lg-4
+          .col-7.col-lg-4(data-aos="flip-down")
             figure
-              img(src='@/assets/curso/img2-3.svg', alt='Imágen decorativa')
+              img(src='@/assets/curso/img2-3.svg', alt='Imágenes de personas accidentadas recibiendo atención médica.')
 
 
     .row.align-items-center.bg-color2.px-5
       .col-12
         .row
           .col-12
-            p En alguna circunstancia, podríamos ser testigos de incidentes o contingencias en el hogar, en la vía, en el trabajo, en la academia y, por lo tanto, debemos prepararnos para enfrentarlos y controlarlos desde un inicio.
+            p(data-aos="fade-left") En alguna circunstancia, podríamos ser testigos de incidentes o contingencias en el hogar, en la vía, en el trabajo, en la academia y, por lo tanto, debemos prepararnos para enfrentarlos y controlarlos desde un inicio.
           .col-lg-4.mb-4.mb-lg-0
             figure(data-aos="fade-right")
               img(src='@/assets/curso/img2.png', style='width: 350px', alt='Imágen decorativa').m-auto
           .col-lg-8
-            p.mb-4 Los escrutinios señalan cómo una gran cantidad de las causas de mortandad, en los territorios, pueden prevenirse. Según datos del DANE y del Ministerio de Salud y Protección Social, la Enfermedad Isquémica y la Cerebrovascular se adueñan, de los dos primeros lugares, como causa de muerte en ciudades como Bogotá, Medellín o Barranquilla; les siguen las agresiones o violencia y una cantidad substancial de accidentes de tránsito. Con frecuencia, estas muertes o accidentes, podrían haberse evitado si se hubieran llevado a cabo las medidas preventivas, acertadas y convenientes.
-            .cajon.color-primario.p-4
+            p.mb-4(data-aos="fade-right") Los escrutinios señalan cómo una gran cantidad de las causas de mortandad, en los territorios, pueden prevenirse. Según datos del DANE y del Ministerio de Salud y Protección Social, la Enfermedad Isquémica y la Cerebrovascular se adueñan, de los dos primeros lugares, como causa de muerte en ciudades como Bogotá, Medellín o Barranquilla; les siguen las agresiones o violencia y una cantidad substancial de accidentes de tránsito. Con frecuencia, estas muertes o accidentes, podrían haberse evitado si se hubieran llevado a cabo las medidas preventivas, acertadas y convenientes.
+            .cajon.color-primario.p-4(data-aos="flip-down")
               p.mb-0 En el actual Sistema de Emergencias Médicas Colombianas y de acuerdo con la Resolución 926 del 2017 del Ministerio de Salud y Protección Social, “#[i #[b por la cual se reglamenta el desarrollo y operación del Sistema de Emergencias Médicas]]”, la atención de un lesionado, durante una emergencia, implica desde el punto de vista legal la aplicación de unos deberes y derechos, tanto para la víctima como para el auxiliador.
       separador
     #t_1_1
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1  Primer respondiente
-    p #[b ¿Sabes quién es el primer respondiente?]
+    p(data-aos="fade-right") #[b ¿Sabes quién es el primer respondiente?]
     .row.justify-content-center.mb-5
       .col-lg-11
-        .bloque-texto-d.color-secundario.p-4
+        .bloque-texto-d.color-secundario.p-4(data-aos="flip-down")
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
             h3.text-regular Primer respondiente. Es la persona capacitada que en forma solidaria decide participar en la atención inicial de alguien que ha sufrido una alteración de la integridad física y/o mental, y puede, o no, ser un profesional de la salud. Activará el SEM, apoyará en la valoración de los riesgos asociados al evento y brindará ayuda inicial al afectado.
@@ -65,10 +65,10 @@
             i.fas.fa-file-download
     separador.mb-5
     #t_1_2
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2  Código Penal Colombiano
-    p.mb-5 Es importante resaltar y aclarar que el Código Penal Colombiano:
-    .tarjeta--container.row.mb-5
+    p.mb-5(data-aos="fade-right") Es importante resaltar y aclarar que el Código Penal Colombiano:
+    .tarjeta--container.row.mb-5(data-aos="flip-down")
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-5
           .col-4
@@ -85,7 +85,7 @@
         h3.text-center.mb-0 Artículo 120
         h4.text-center.mb-5 Lesiones culposas
         p.text-center (Penas aumentadas por el artículo 14 de la ley 890 de 2004) El que por culpa cause a otro alguna de las lesiones a las que se refieren los artículos anteriores, incurrirá en la respectiva pena disminuida de las cuatro quintas, a las tres cuartas partes.
-    p.mb-5 Para poseer una mejor comprensión del párrafo anterior, debemos tener claros varios conceptos que estudiaremos a continuación.
+    p.mb-5(data-aos="fade-left") Para poseer una mejor comprensión del párrafo anterior, debemos tener claros varios conceptos que estudiaremos a continuación.
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Culpa")
         .col-12
@@ -231,20 +231,20 @@
                 p #[b Anexo]. De compromiso
     separador.mb-5
     #t_1_3
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.3 Número único para emergencias
-    p ¿Cuál es el número único para emergencias? La siguiente imagen lo ilustra.
+    p(data-aos="fade-left") ¿Cuál es el número único para emergencias? La siguiente imagen lo ilustra.
     .row.align-items-center.justify-content-center.bg-color3.px-5
       .col-12.mb-5
         .row.justify-content-center.align-items-center
           .col-lg-4.mb-5.mb-lg-0
 
-            .titulo-sexto.color-primario.mb-5
+            .titulo-sexto.color-primario.mb-5(data-aos="fade-right")
               h5 Figura 1
               span Número único para emergencias  
 
             figure.mb-3(data-aos="fade-left")
-              img(src='@/assets/curso/img18.svg', style='width: 450px', alt='Imágen decorativa').m-auto
+              img(src='@/assets/curso/img18.svg', style='width: 450px', alt='Imagen que describe el número único para emergencias, el cual consiste en lo siguiente:<br>NUSE<br>Número Único para Seguridad y Emergencias<br>123<br>En los casos donde el NUSE no opere, la notificación se podrá realizar a través de una línea gratuita, de fácil acceso y recordación, para la comunidad.').m-auto
 
             p.text-center Nota. Sena (2021)
 
@@ -262,68 +262,69 @@
                 .col-12
                   p Garantizar una respuesta adecuada, oportuna, efectiva y coordinada, en situaciones de urgencias, emergencias y desastres, desde las diferentes entidades que se encuentran incluidas en el sistema, para la prevención, atención y despacho de recursos físicos.
       .col-11
-        .cajon.color-primario.p-4.mb-5
+        .cajon.color-primario.p-4.mb-5(data-aos="flip-down")
           p.mb-0 A través del Centro Regulador de Urgencia y Emergencias (CRUE) se coordina la atención prehospitalaria, servicio que se presta a la comunidad en general, y comprende los servicios de salvamento, atención médica y transporte, a enfermos o accidentados en el sitio del incidente.
       .col-12
-        .h4 ¿Cuándo solicitar el servicio de atención prehospitalaria?
-        p.mb-5 El servicio de atención prehospitalaria se debe solicitar a través de la línea 123, cuando se presente alguna de las siguientes situaciones:
+        .h4(data-aos="fade-right") ¿Cuándo solicitar el servicio de atención prehospitalaria?
+        p.mb-5(data-aos="fade-left") El servicio de atención prehospitalaria se debe solicitar a través de la línea 123, cuando se presente alguna de las siguientes situaciones:
         .row.align-items-center.mb-5
           .col-lg-6
             ul.lista-ul.ms-5
-              li 
+              li(data-aos="fade-up") 
                 i.fas.fa-atom(style="color: #00BCD4")
                 | Accidente de tránsito con heridos o lesionados.
-              li 
+              li(data-aos="fade-up") 
                 i.fas.fa-atom(style="color: #00BCD4")
                 | Persona herida en la vía pública.
-              li 
+              li(data-aos="fade-up") 
                 i.fas.fa-atom(style="color: #00BCD4")
                 | Dolor en el tórax o en el pecho y que no cede con el reposo.
-              li 
+              li(data-aos="fade-up")
                 i.fas.fa-atom(style="color: #00BCD4")
                 | Madre gestante de alto riesgo.
-              li 
+              li(data-aos="fade-up") 
                 i.fas.fa-atom(style="color: #00BCD4")
                 | Embarazos con trabajo de parto en curso.
-              li 
+              li(data-aos="fade-up") 
                 i.fas.fa-atom(style="color: #00BCD4")
                 | Intoxicación.
-              li 
+              li(data-aos="fade-up") 
                 i.fas.fa-atom(style="color: #00BCD4")
                 | Caída desde una altura considerable.
-              li 
+              li(data-aos="fade-up") 
                 i.fas.fa-atom(style="color: #00BCD4")
                 | Persona inconsciente.
-              li 
+              li(data-aos="fade-up") 
                 i.fas.fa-atom(style="color: #00BCD4")
                 | Persona que no respira o que tiene dificultad para respirar.
-              li 
+              li(data-aos="fade-up")
                 i.fas.fa-atom(style="color: #00BCD4")
                 | Persona con alteraciones en su comportamiento mental.
-              li 
+              li(data-aos="fade-up") 
                 i.fas.fa-atom(style="color: #00BCD4")
                 | Herido por arma blanca.
-              li 
+              li(data-aos="fade-up") 
                 i.fas.fa-atom(style="color: #00BCD4")
                 | Herido por arma de fuego.
           .col-lg-6
             figure(data-aos="fade-right")
               img(src='@/assets/curso/img3.png', style='width: 270px', alt='Imágen decorativa').m-auto
-        .cajon.color-primario.p-4
+        .cajon.color-primario.p-4(data-aos="flip-down")
           p.mb-0 Es importante recordar que la prioridad de atención, de esta línea, son las urgencias críticas. Una vida humana puede depender de una llamada telefónica, por lo tanto es importante no congestionar la línea 123 con llamadas innecesarias. En el mismo lugar del evento y mientras llega el equipo especializado, iniciar la primera ayuda: activar la línea de emergencia, tener toda la información posible de manera inmediata y seguir las instrucciones telefónicas del equipo de salud.
     separador.mb-5
     #t_1_4
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.4 Principios básicos de la actuación del primer respondiente
-    p.mb-5 Teniendo en cuenta lo estudiado anteriormente, analicemos cuáles son los principios básicos de la actuación del primer respondiente, a través de la siguiente imagen.
-    .h5.mb-5 Actuación primer respondiente
+    p.mb-5(data-aos="fade-left") Teniendo en cuenta lo estudiado anteriormente, analicemos cuáles son los principios básicos de la actuación del primer respondiente, a través de la siguiente imagen.
+    .h5.mb-5(data-aos="fade-right") Actuación primer respondiente
     .row
       .col-12
         LineaTiempoC.color-acento-contenido
           .row(titulo="1")
             .col-12
               figure
-                img(src='@/assets/curso/img56.svg', style="width:1000px", alt='Imágen decorativa').m-auto
+                img(src='@/assets/curso/img56.svg', style="width:1000px", alt='Imagen que indica los principios básicos de la actuación del primer respondiente, los cuales son:<br>1. Mantener la serenidad actuando con rapidez.<br>2. Evaluar la escena del accidente y mitigar los riesgos.<br>3. Valoración del lesionado. Llamar al NUSE.<br>4. Evitar mover al lesionado. Conservar la cadena de custodia.<br>5. Priorizar la atención.<br>6. Tranquilizar a la víctima.').m-auto
+
           .row(titulo="2")
             .col-12
               figure

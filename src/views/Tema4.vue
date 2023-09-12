@@ -13,24 +13,24 @@
           figure(data-aos="fade-left")
             img(src='@/assets/curso/img10.png', style='width: 350px', alt='Imágen decorativa').m-auto
         .col-lg-8
-          .row.px-4
+          .row.px-4(data-aos="flip-up")
             .col-12.p-5.bg-color5
               p.mb-0 La Organización Mundial de la Salud, define a un accidente como: un acontecimiento imprevisto, independiente de la voluntad humana, incitado por una fuerza exterior que actúa rápidamente y se manifiesta por la aparición de lesiones orgánicas o trastornos mentales.
             img(src='@/assets/curso/img13.png', style='width: 270px; position: relative; left: 50%; bottom: 30px;', alt='Imágen decorativa')
-          .cajon.color-primario.p-4.mb-4
+          .cajon.color-primario.p-4.mb-4(data-aos="flip-down")
             p.mb-0 De acuerdo con el registro de llamadas a la línea 123, en el 2016, en ciudades como Bogotá, Medellín y Barranquilla, se determinó la tasa de incidencia de los diferentes tipos de accidentes, de la siguiente manera:
         .col-12
 
-          .titulo-sexto.color-primario.mb-4
+          .titulo-sexto.color-primario.mb-4(data-aos="fade-right")
             h5 Figura 3
             span Causas de llamadas a la Línea 123 durante 2016
 
-          figure(data-aos="fade-right")
-            img.mb-3(src='@/assets/curso/img40.svg', alt='Imágen decorativa')
+          figure(data-aos="zoom-in")
+            img.mb-3(src='@/assets/curso/img40.svg', alt='Imagen que contiene un gráfico estadístico sobre las causas de llamadas a la Línea 123 durante 2016, teniendo los siguientes datos:<br>Enfermedades comunes: 44.387 (66%)<br>Accidentes de tránsito: 13.032 (19%)<br>Accidentes vía pública: 5.985 (9%)<br>Accidentes hogar: 2.949 (4%)<br>Accidentes laborales: 643 (1%)<br>Trauma por violencia: 313 (0%)<br>Fuente: Subdirección del Centro Regulador de Urgencias y Emergencias')
             figcaption Fuente: Subdirección del Centro Regulador de Urgencias y Emergencias    
     
     
-    p.mb-5 Los accidentes pueden ser de diferentes tipos:
+    p.mb-5(data-aos="fade-right") Los accidentes pueden ser de diferentes tipos:
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
       .row(titulo="Accidentes domésticos")
         .col-12
