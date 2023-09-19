@@ -2,8 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Sistema de emergencias médicas
@@ -16,7 +15,7 @@
           .col-12.p-5.bg-color5
             p.mb-0 El Ministerio de Salud y Protección Social, a través de la Resolución 926 de 2017, reglamenta el desarrollo y operación del Sistema de Emergencias Médicas (SEM) en Colombia, para garantizar una respuesta oportuna y efectiva a las situaciones de urgencia que se presenten en todo el territorio nacional.
           img(src='@/assets/curso/img12.png', style='width: 270px; position: relative; left: 50%; bottom: 20px;', alt='Imágen decorativa')
-    separador.mb-5
+    separador
     #t_2_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1 ¿Qué es el SEM?
@@ -47,7 +46,7 @@
         h3.text-center.mb-5 Objetivo:
         p.text-center Responder, de manera oportuna, a víctimas de enfermedad, paros cardiorrespiratorios, accidentes de tránsito o traumatismos, que requieran atención médica de urgencia, en lugares públicos y privados.
     p.mb-5(data-aos="fade-left") Se fija en cabeza de la entidad territorial, a través del Centro Regulador de Urgencias, Emergencias y Desastres — CRUE del territorio, de acuerdo con las funciones designadas en la resolución. Entre estas funciones se encuentran las siguientes:
-    .row.align-items-center.mb-5
+    .row.align-items-center
       .col-lg-7.mb-4.mb-lg-0
         .row.align-items-center.mb-4(data-aos="fade-right")
           .col-auto.d-inline
@@ -71,7 +70,7 @@
         figure(data-aos="fade-left")
           img(src='@/assets/curso/img5.png', style='width: 350px', alt='Imágen decorativa').m-auto
     .row.align-items-center.justify-content-center.bg-color3.px-5
-      .col-12.mb-5
+      .col-12
         p.mb-5(data-aos="fade-left") El acceso al SEM, por parte de la comunidad, se llevará a cabo a través de la línea 123 – Número Único de Seguridad y Emergencias (NUSE) donde se encuentre implementado, es decir, que cada entidad territorial deberá adelantar los trámites necesarios que garanticen la articulación del CRUE con el NUSE. En los casos donde el NUSE no opere, la notificación se podrá hacer a través de una línea gratuita, de fácil acceso y recordación para la comunidad.
         .h5.mb-5(data-aos="fade-right") ¿Cómo se implementa el SEM?
         TabsC.color-primario

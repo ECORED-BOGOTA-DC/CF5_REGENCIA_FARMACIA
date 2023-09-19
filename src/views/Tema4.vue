@@ -2,9 +2,8 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
     .row.align-items-center.bg-color9.px-5.mb-5
-      .titulo-principal.color-acento-contenido
+      .titulo-principal.color-acento-contenido(data-aos="flip-up")
         .titulo-principal__numero
           span 4
         h1 Accidentes
@@ -20,18 +19,14 @@
           .cajon.color-primario.p-4.mb-4(data-aos="flip-down")
             p.mb-0 De acuerdo con el registro de llamadas a la línea 123, en el 2016, en ciudades como Bogotá, Medellín y Barranquilla, se determinó la tasa de incidencia de los diferentes tipos de accidentes, de la siguiente manera:
         .col-12
-
           .titulo-sexto.color-primario.mb-4(data-aos="fade-right")
             h5 Figura 3
             span Causas de llamadas a la Línea 123 durante 2016
-
           figure(data-aos="zoom-in")
             img.mb-3(src='@/assets/curso/img40.svg', alt='Imagen que contiene un gráfico estadístico sobre las causas de llamadas a la Línea 123 durante 2016, teniendo los siguientes datos:<br>Enfermedades comunes: 44.387 (66%)<br>Accidentes de tránsito: 13.032 (19%)<br>Accidentes vía pública: 5.985 (9%)<br>Accidentes hogar: 2.949 (4%)<br>Accidentes laborales: 643 (1%)<br>Trauma por violencia: 313 (0%)<br>Fuente: Subdirección del Centro Regulador de Urgencias y Emergencias')
-            figcaption Fuente: Subdirección del Centro Regulador de Urgencias y Emergencias    
-    
-    
+            figcaption Fuente: Subdirección del Centro Regulador de Urgencias y Emergencias
     p.mb-5(data-aos="fade-right") Los accidentes pueden ser de diferentes tipos:
-    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
       .row(titulo="Accidentes domésticos")
         .col-12
           p Un accidente en el hogar se refiere a cualquier hecho o fenómeno traumático espontáneo que le sucede al individuo sano, o bien, en el curso de una enfermedad; estos accidentes se consideran una situación de salud pública, debido a que se acostumbran presentar, en la mayoría de los casos, con los niños y/o los adultos mayores, generalmente causados por circunstancias ambientales o conductas personales que se pueden prevenir.
@@ -90,81 +85,81 @@
             p.mb-0 Los accidentes de tránsito son la séptima causa de morbilidad en el planeta y la primera causa de muerte de las personas menores de 40 años a escala mundial. En promedio, 1,3 millones de personas en el mundo mueren al año por accidentes de tránsito.
           p La mayoría de los accidentes de tránsito tienen un factor de riesgo en común, el FACTOR HUMANO:
           ul.lista-ul.ms-5.mb-4
-            li 
+            li.d-flex
               i.fas.fa-atom(style="color: #00BCD4")
               | Conducir bajo los efectos de medicamentos, sustancias psicoactivas y licor (mayor causalidad de accidentes).
-            li 
+            li.d-flex
               i.fas.fa-atom(style="color: #00BCD4")
               | Llevar a cabo maniobras imprudentes y por descuido por parte del conductor.
-            li 
+            li.d-flex
               i.fas.fa-atom(style="color: #00BCD4")
               | Adelantar en espacios prohibidos (alto riesgo de choque frontal muy grave).
-            li 
+            li.d-flex
               i.fas.fa-atom(style="color: #00BCD4")
               | Desobedecer las señales de tránsito: pasarse un semáforo en rojo.
-            li 
+            li.d-flex
               i.fas.fa-atom(style="color: #00BCD4")
               | Circular por el carril contrario (en una curva o en un cambio de rasante).
-            li 
+            li.d-flex
               i.fas.fa-atom(style="color: #00BCD4")
               | Conducir con exceso de velocidad (puede producir vuelcos, salida del automóvil de la carretera o derrapes).
-            li 
+            li.d-flex
               i.fas.fa-atom(style="color: #00BCD4")
               | Utilizar de forma incorrecta las luces del vehículo, en especial de noche.
-            li 
+            li.d-flex
               i.fas.fa-atom(style="color: #00BCD4")
               | Peatones que cruzan las calles por lugares incorrectos, que se distraen con juegos en las carreteras o que arrojan objetos resbaladizos al carril de circulación (aceites, piedras).
-            li 
+            li.d-flex
               i.fas.fa-atom(style="color: #00BCD4")
               | Falta de experiencia al volante por parte del conductor.
-            li 
+            li.d-flex
               i.fas.fa-atom(style="color: #00BCD4")
               | Condiciones no aptas de salud física y mental/emocional del conductor o del peatón (ceguera, daltonismo, sordera, etc.).
-            li 
+            li.d-flex
               i.fas.fa-atom(style="color: #00BCD4")
               | Cansancio del conductor, como producto de la apnea o la falta de sueño.
           p Otros factores de riesgo para los accidentes de tránsito son:
           .tarjeta--container.row.mb-5
-            .col-md.tarjeta.color-primario.p-5
+            .col-md.tarjeta.color-primario.p-4.p-lg-5
               .row.justify-content-center.mb-5
-                .col-4
+                .col-6.col-lg-4
                   figure
                     img(src='@/assets/curso/img47.svg', alt='Imágen decorativa')
               h3.text-center.mb-5 Los factores mecánicos
               .row.justify-content-center.mb-5
-                .col-8
+                .col-lg-8
                   ul.lista-ul.ms-5
-                    li 
+                    li.d-flex
                       i.fas.fa-atom(style="color: #00BCD4")
                       | Mal estado de la vía y del vehículo.
-                    li 
+                    li.d-flex
                       i.fas.fa-atom(style="color: #00BCD4")
                       | Vehículo en condiciones inadecuadas para operar: averías en los sistemas de frenos, de dirección o de suspensión.
-                    li 
+                    li.d-flex
                       i.fas.fa-atom(style="color: #00BCD4")
                       | Mantenimiento inadecuado del vehículo.
-            .col-md.tarjeta.color-acento-botones.p-5
+            .col-md.tarjeta.color-acento-botones.p-4.p-lg-5
               .row.justify-content-center.mb-5
-                .col-4
+                .col-6.col-lg-4
                   figure
                     img(src='@/assets/curso/img48.svg', alt='Imágen decorativa')
               h3.text-center.mb-5 Los factores climáticos
               .row.justify-content-center.mb-5
-                .col-6
+                .col-lg-6
                   ul.lista-ul.ms-5
-                    li 
+                    li.d-flex
                       i.fas.fa-atom(style="color: #00BCD4")
                       | Niebla.
-                    li 
+                    li.d-flex
                       i.fas.fa-atom(style="color: #00BCD4")
                       | Humedad.
-                    li 
+                    li.d-flex
                       i.fas.fa-atom(style="color: #00BCD4")
                       | Derrumbes.
-                    li 
+                    li.d-flex
                       i.fas.fa-atom(style="color: #00BCD4")
                       | Zonas inestables.
-                    li 
+                    li.d-flex
                       i.fas.fa-atom(style="color: #00BCD4")
                       | Hundimientos.
       .row(titulo="Accidentes laborales")

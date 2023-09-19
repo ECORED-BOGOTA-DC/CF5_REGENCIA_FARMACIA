@@ -2,31 +2,25 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Normatividad legal vigente para el primer respondiente
     p.mb-5(data-aos="fade-right") ¿Sabías que todos los días, los individuos y la comunidad, en general, están sujetos a una enorme cantidad de intimidaciones de procedencia natural y a otras tantas más, provocadas por los seres humanos?
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-11
-        .row.justify-content-center.align-items-center
-          .col-7.col-lg-4(data-aos="flip-down")
-            figure
-              img(src='@/assets/curso/img2-1.svg', alt='Imágenes de personas accidentadas recibiendo atención médica.')
-
-          .col-7.col-lg-4(data-aos="flip-down")
-            figure
-              img(src='@/assets/curso/img2-2.svg', alt='Imágenes de personas accidentadas recibiendo atención médica.')
-
-          .col-7.col-lg-4(data-aos="flip-down")
-            figure
-              img(src='@/assets/curso/img2-3.svg', alt='Imágenes de personas accidentadas recibiendo atención médica.')
-
-
     .row.align-items-center.bg-color2.px-5
       .col-12
+        .row.justify-content-center.mb-5
+          .col-lg-11
+            .row.justify-content-center
+              .col-7.col-lg-4(data-aos="flip-down").mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/img2-1.svg', alt='Imágenes de personas accidentadas recibiendo atención médica.')
+              .col-7.col-lg-4(data-aos="flip-down").mb-4.mb-lg-0
+                figure
+                  img(src='@/assets/curso/img2-2.svg', alt='Imágenes de personas accidentadas recibiendo atención médica.')
+              .col-7.col-lg-4(data-aos="flip-down")
+                figure
+                  img(src='@/assets/curso/img2-3.svg', alt='Imágenes de personas accidentadas recibiendo atención médica.')
         .row
           .col-12
             p(data-aos="fade-left") En alguna circunstancia, podríamos ser testigos de incidentes o contingencias en el hogar, en la vía, en el trabajo, en la academia y, por lo tanto, debemos prepararnos para enfrentarlos y controlarlos desde un inicio.
@@ -37,7 +31,7 @@
             p.mb-4(data-aos="fade-right") Los escrutinios señalan cómo una gran cantidad de las causas de mortandad, en los territorios, pueden prevenirse. Según datos del DANE y del Ministerio de Salud y Protección Social, la Enfermedad Isquémica y la Cerebrovascular se adueñan, de los dos primeros lugares, como causa de muerte en ciudades como Bogotá, Medellín o Barranquilla; les siguen las agresiones o violencia y una cantidad substancial de accidentes de tránsito. Con frecuencia, estas muertes o accidentes, podrían haberse evitado si se hubieran llevado a cabo las medidas preventivas, acertadas y convenientes.
             .cajon.color-primario.p-4(data-aos="flip-down")
               p.mb-0 En el actual Sistema de Emergencias Médicas Colombianas y de acuerdo con la Resolución 926 del 2017 del Ministerio de Salud y Protección Social, “#[i #[b por la cual se reglamenta el desarrollo y operación del Sistema de Emergencias Médicas]]”, la atención de un lesionado, durante una emergencia, implica desde el punto de vista legal la aplicación de unos deberes y derechos, tanto para la víctima como para el auxiliador.
-      separador
+    separador
     #t_1_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1  Primer respondiente
@@ -63,7 +57,7 @@
           a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/anexo2.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
-    separador.mb-5
+    separador
     #t_1_2
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2  Código Penal Colombiano
@@ -86,7 +80,7 @@
         h4.text-center.mb-5 Lesiones culposas
         p.text-center (Penas aumentadas por el artículo 14 de la ley 890 de 2004) El que por culpa cause a otro alguna de las lesiones a las que se refieren los artículos anteriores, incurrirá en la respectiva pena disminuida de las cuatro quintas, a las tres cuartas partes.
     p.mb-5(data-aos="fade-left") Para poseer una mejor comprensión del párrafo anterior, debemos tener claros varios conceptos que estudiaremos a continuación.
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
       .row(titulo="Culpa")
         .col-12
           p La culpa es definida como una acción criminal que se lleva a cabo sin tener el cuidado necesario para prevenir y eludir el daño. Se manifiesta por imprudencia, descuido, ineptitud, abandono.
@@ -229,7 +223,7 @@
                 img(src="@/assets/template/icono-pdf.svg", alt='Imágen decorativa')
               .anexo__texto
                 p #[b Anexo]. De compromiso
-    separador.mb-5
+    separador
     #t_1_3
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.3 Número único para emergencias
@@ -237,18 +231,14 @@
     .row.align-items-center.justify-content-center.bg-color3.px-5
       .col-12.mb-5
         .row.justify-content-center.align-items-center
-          .col-lg-4.mb-5.mb-lg-0
-
-            .titulo-sexto.color-primario.mb-5(data-aos="fade-right")
+          .col-lg-4.mb-5.mb-lg-0(data-aos="fade-right")
+            .titulo-sexto.color-primario.mb-5
               h5 Figura 1
-              span Número único para emergencias  
-
+              span Número único para emergencias
             figure.mb-3(data-aos="fade-left")
               img(src='@/assets/curso/img18.svg', style='width: 450px', alt='Imagen que describe el número único para emergencias, el cual consiste en lo siguiente:<br>NUSE<br>Número Único para Seguridad y Emergencias<br>123<br>En los casos donde el NUSE no opere, la notificación se podrá realizar a través de una línea gratuita, de fácil acceso y recordación, para la comunidad.').m-auto
-
             p.text-center Nota. Sena (2021)
-
-          .col-lg-8
+          .col-lg-8(data-aos="fade-left")
             LineaTiempoD.color-primario
               .row(numero="1" titulo="Acceso")
                 .col-12
@@ -311,7 +301,7 @@
               img(src='@/assets/curso/img3.png', style='width: 270px', alt='Imágen decorativa').m-auto
         .cajon.color-primario.p-4(data-aos="flip-down")
           p.mb-0 Es importante recordar que la prioridad de atención, de esta línea, son las urgencias críticas. Una vida humana puede depender de una llamada telefónica, por lo tanto es importante no congestionar la línea 123 con llamadas innecesarias. En el mismo lugar del evento y mientras llega el equipo especializado, iniciar la primera ayuda: activar la línea de emergencia, tener toda la información posible de manera inmediata y seguir las instrucciones telefónicas del equipo de salud.
-    separador.mb-5
+    separador
     #t_1_4
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.4 Principios básicos de la actuación del primer respondiente
@@ -369,9 +359,10 @@
 </template>
 
 <script>
+import LineaTiempoC from '@/components/LineaTiempoC.vue'
 export default {
   name: 'Tema1',
-  components: {},
+  components: { LineaTiempoC },
   data: () => ({
     // variables de vue
   }),

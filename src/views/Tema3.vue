@@ -2,8 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Riesgo y peligro
@@ -13,17 +12,12 @@
         .cajon.color-primario.p-4.mb-4(data-aos="flip-down")
           p.mb-0 Es importante comprender que la vulnerabilidad o la intimidación, por separado, no representan ningún tipo de peligro pero, si se combinan, se convierten en un riesgo, o sea, en la posibilidad para que un desastre se manifieste.
         p.mb-5(data-aos="fade-left") La siguiente imagen nos presenta una representación gráfica de lo explicado anteriormente.
-
         .titulo-sexto.color-primario.mb-4(data-aos="fade-right")
           h5 Figura 2
           span Riesgo
-
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/img29.svg', style='width: 750px', alt='Imagen que explica de manera gráfica cómo se da un riesgo, siendo de la siguiente manera:<br>Amenaza + Vulnerabilidad / capacidades = Riesgo:<br>Evento adverso<br>Desastre y/o emergencia').m-auto
-
         p.text-center Nota. Sena (2021)
-
-
       .col-lg-4
         figure(data-aos="fade-left")
           img(src='@/assets/curso/img9.png', style='width: 270px', alt='Imágen decorativa').m-auto
@@ -44,17 +38,14 @@
             p.text-small(numero="6" titulo="Amenaza de colapso de estructuras") Cuando se encuentran ante le presencia de estructuras que corren el peligro de colapsar.
     .cajon.color-primario.p-4(data-aos="flip-down")
       p.mb-0 Si el primer respondiente se transforma en una víctima, no va a poder ayudar a las personas accidentadas y pasará a engrosar la cantidad de pacientes y, al mismo tiempo, reducirá la cantidad de auxiliares capacitados para asistir en el evento. Por lo tanto, su preocupación primordial en la escena de emergencia, es su seguridad personal. La intención de ayudar a los que necesitan atención, puede hacer que descuide los peligros de la escena. El auxiliador o primer respondiente, debe ratificar que puede llegar de una manera segura hasta el paciente, y que la escena le confiera la tranquilidad para brindar los cuidados correspondientes a las víctimas.
-    separador.mb-5
+    separador
     #t_3_1
     .row.align-items-center.bg-color3.px-5.pt-0
       .titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 3.1 Asegurar el área
       p(data-aos="fade-left") La seguridad de la situación no solo implica protección para el responsable del rescate, sino también para el paciente.
-
       p(data-aos="fade-right") Según los peligros asociados, los factores de riesgo y las amenazas vinculadas, se debe decidir la competencia para controlarlos de manera eficiente. Si se considera apto para controlar todos los riesgos existentes y posee el equipo necesario, debe seguir los procedimientos propios de cada evento para asegurar el área, y reubicar el transporte a la mayor distancia recomendada para cada evento. Si no conoce o tiene dudas, permanezca dentro del vehículo y alerte a las entidades competentes.
-      
       p.mb-5(data-aos="fade-left") Tenga en cuenta las siguientes recomendaciones:
-      
       .row.justify-content-center
         .col-lg-10
           .tarjeta-avatar-b.mb-5(data-aos="fade-left")
@@ -79,14 +70,11 @@
       img(src='@/assets/curso/img34.svg', style='width: 1200px', alt='Imágen decorativa').m-auto
     .cajon.color-primario.p-4.mb-4(data-aos="flip-down")
       p.mb-0 #[b #[i En general, los pacientes que se encuentren en situación de peligro, deben ser movilizados a un lugar seguro antes de empezar la valoración y el tratamiento.]]
-    
     p(data-aos="fade-right") Si se encuentra en situaciones de violencia, asonada, aglomeración en pánico o estampida, es imperativo prepararse de inmediato para abandonar el lugar.
-    
     p.mb-5(data-aos="fade-left") Cuando se encuentre en una de estas situaciones, tenga presente las siguientes reglas para la seguridad ante una escena violenta:
-    
     .row
       .col-lg-8
-        PasosB.color-acento-contenido
+        LineaTiempoC.color-acento-contenido
           .row(titulo="No estar allí")
             .col-12
               p Cuando se conteste a un incidente que se sabe es violento, permanezca en un lugar seguro hasta que los representantes de la ley consideren que la situación es confiable y den indicaciones para poder actuar.
@@ -128,34 +116,34 @@
             .row.align-items-center
               .col-lg-6
                 ul.lista-ul.ms-5
-                  li(data-aos="fade-up") 
+                  li(data-aos="fade-up").d-flex
                     i.fas.fa-atom(style="color: #00BCD4")
                     | ¿Qué fue lo que realmente sucedió en la escena?
-                  li(data-aos="fade-up") 
+                  li(data-aos="fade-up").d-flex
                     i.fas.fa-atom(style="color: #00BCD4")
                     | ¿Cuál fue la razón para solicitar ayuda?
-                  li(data-aos="fade-up") 
+                  li(data-aos="fade-up").d-flex
                     i.fas.fa-atom(style="color: #00BCD4")
                     | ¿Cuál fue el artilugio de la lesión?
-                  li(data-aos="fade-up") 
+                  li(data-aos="fade-up").d-flex
                     i.fas.fa-atom(style="color: #00BCD4")
                     | ¿Cuántas personas se encuentran implicadas y qué edades presentan?
-                  li(data-aos="fade-up") 
+                  li(data-aos="fade-up").d-flex
                     i.fas.fa-atom(style="color: #00BCD4")
                     | ¿Es necesario solicitar más unidades de SEM para el tratamiento y el transporte?
-                  li(data-aos="fade-up") 
+                  li(data-aos="fade-up").d-flex
                     i.fas.fa-atom(style="color: #00BCD4")
                     | ¿Cuál es la dirección exacta del evento?
-                  li(data-aos="fade-up") 
+                  li(data-aos="fade-up").d-flex
                     i.fas.fa-atom(style="color: #00BCD4")
                     | ¿Cuál es el punto de referencia más cercano?
-                  li(data-aos="fade-up") 
+                  li(data-aos="fade-up").d-flex
                     i.fas.fa-atom(style="color: #00BCD4")
                     | ¿Cuál es la ruta de acceso más viable para los servicios de emergencias?
-                  li(data-aos="fade-up") 
+                  li(data-aos="fade-up").d-flex
                     i.fas.fa-atom(style="color: #00BCD4")
                     | ¿Se necesitan más personas o recursos? (agentes de la ley, bomberos, compañía eléctrica, de acueducto, de emergencias con gas).
-                  li(data-aos="fade-up") 
+                  li(data-aos="fade-up").d-flex
                     i.fas.fa-atom(style="color: #00BCD4")
                     | ¿Se necesita equipo de rescate vehicular para la extracción de personas atrapadas?
               .col-lg-6
@@ -168,10 +156,10 @@
               p Un principio esencial al acceder a la zona de impacto, en una emergencia, es el de evitar que los acontecimientos desfavorables aporten efectos secundarios que puedan afectar al personal de seguridad, al de socorro y al de atención prehospitalaria, que han acudido a prestar asistencia a las víctimas potenciales. 
               p.mb-4 La idea de organización del entorno, en el lugar del accidente, se entiende como el procedimiento, anteriormente establecido, que propende a proteger la vida y la integridad física de los auxiliares.
               .row.align-items-center
-                .col-3
+                .col-lg-3.mb-4.mb-lg-0
                   figure
                     img(src='@/assets/curso/img38.svg', style='width: 250px', alt='Imágen decorativa').m-auto
-                .col-9
+                .col-lg-9
                   p.mb-4 Este procedimiento se realiza mediante la adopción de medidas de precaución y técnicas de restricción y señalización del área, así como también con la distribución idónea de las funciones para cada uno de los integrantes del equipo de respuesta a la emergencia.
                   .cajon.color-primario.p-4
                     p.mb-0 El objetivo es el de evitar los efectos derivados del evento, ya sea para los auxiliares o para las víctimas y espectadores, así como también lograr el control de la situación y disminuir los riesgos asociados.
@@ -179,8 +167,10 @@
 </template>
 
 <script>
+import LineaTiempoC from '@/components/LineaTiempoC.vue'
 export default {
   name: 'Tema3',
+  components: { LineaTiempoC },
   data: () => ({
     // variables de vue
   }),

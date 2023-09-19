@@ -10,9 +10,8 @@
             img(src="@/assets/template/arrastrar_Soltar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-contenido
-          h2 Sistema de emergencias médicas colombianas
-        
-        p.mb-4 Identificar la comprensión y apropiación de los conceptos sobre Primer Respondiente y sus responsabilidades.
+          h2 Riesgo y amenaza
+        p.mb-4 Identificar los riesgos y amenazas en el lugar de la emergencia, considerando el suceso, el tráfico, las personas y las vías de acceso, para implementar medidas efectivas de mitigación y salvaguardar la seguridad de los involucrados.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

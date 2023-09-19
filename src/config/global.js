@@ -141,7 +141,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/331502_CF05_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -320,13 +320,13 @@ export default {
       autores: [
         {
           nombre: 'Emilia Sarmiento Mora',
-          cargo: 'Profesional Experta Temática',
+          cargo: 'Profesional experta temática',
           centro: 'Centro de Servicios de Salud - Regional Antioquia. ',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo:
-            'Diseñadora Instruccional - Revisora Metodológica y Pedagógica',
+            'Diseñadora instruccional - Revisora metodológica y pedagógica',
           centro:
             'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital.',
         },
@@ -367,13 +367,13 @@ export default {
         },
         {
           nombre: 'Manuel Felipe Echavarría Orozco',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollo fullstack',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
         {
           nombre: 'Lady Adriana Ariza Luque',
-          cargo: 'Animación y Producción audiovisual',
+          cargo: 'Animación y producción audiovisual',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
@@ -402,7 +402,8 @@ export default {
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Validación de recursos educativos digitales',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación al LMS',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
