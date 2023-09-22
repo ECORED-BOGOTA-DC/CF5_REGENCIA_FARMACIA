@@ -167,10 +167,8 @@
 </template>
 
 <script>
-import LineaTiempoC from '@/components/LineaTiempoC.vue'
 export default {
   name: 'Tema3',
-  components: { LineaTiempoC },
   data: () => ({
     // variables de vue
   }),

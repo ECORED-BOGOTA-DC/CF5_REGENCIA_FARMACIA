@@ -9,11 +9,11 @@
       h1 Introducción
     .row
       .col-12(data-aos="fade-right")
-        figure.mb-5
+        figure.mb-4
           .video
             <iframe width="853" height="480" src="https://www.youtube.com/embed/OdQNJetD-lY?si=rZTNTK1qrkDoq8Sw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       .col-12
-        p.text-center.mb-0(data-aos="fade-right") #[b ¡Muchos éxitos en este proceso de aprendizaje!]
+        p.text-center.mb-0(data-aos="fade-left") #[b ¡Muchos éxitos en este proceso de aprendizaje!]
 
 </template>
 
