@@ -149,31 +149,31 @@
             p.mb-5 La actitud posee factores que pueden interferir y modificar la naturaleza o la intención, tales como:
 
             .row.justify-content-center.mb-5
-              .col-xl-2.col-md-6.col-8.mb-xl-0.mb-4
+              .col-xxl.col-xl-3.col-lg-4.col-md-6.col-8.mb-xxl-0.mb-4
                 .BGR01.h-100.p-lg-5.p-4
                   .row.justify-content-center.mb-4
                     .col-8
                       img(src='@/assets/curso/tema1/img04.svg' alt="Imagen decorativa")
                   .h5.text-center.mb-0 Estado de animo
-              .col-xl-2.col-md-6.col-8.mb-xl-0.mb-4
+              .col-xxl.col-xl-3.col-lg-4.col-md-6.col-8.mb-xxl-0.mb-4
                 .BGR01.h-100.p-lg-5.p-4
                   .row.justify-content-center.mb-4
                     .col-8
                       img(src='@/assets/curso/tema1/img05.svg' alt="Imagen decorativa")
                   .h5.text-center.mb-0 Conocimientos previos
-              .col-xl-2.col-md-6.col-8.mb-xl-0.mb-4
+              .col-xxl.col-xl-3.col-lg-4.col-md-6.col-8.mb-xxl-0.mb-4
                 .BGR01.h-100.p-lg-5.p-4
                   .row.justify-content-center.mb-4
                     .col-8
                       img(src='@/assets/curso/tema1/img06.svg' alt="Imagen decorativa")
                   .h5.text-center.mb-0 Valores éticos y morales
-              .col-xl-2.col-md-6.col-8.mb-xl-0.mb-4
+              .col-xxl.col-xl-3.col-lg-4.col-md-6.col-8.mb-xxl-0.mb-4
                 .BGR01.h-100.p-lg-5.p-4
                   .row.justify-content-center.mb-4
                     .col-8
                       img(src='@/assets/curso/tema1/img07.svg' alt="Imagen decorativa")
                   .h5.text-center.mb-0 Recurso disponible
-              .col-xl-2.col-md-6.col-8.mb-xl-0.mb-4
+              .col-xxl.col-xl-3.col-lg-4.col-md-6.col-8.mb-xxl-0.mb-4
                 .BGR01.h-100.p-lg-5.p-4
                   .row.justify-content-center.mb-4
                     .col-8
