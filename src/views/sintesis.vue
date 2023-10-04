@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="El esquema representa la síntesis del componente formativo, Sistema de emergencias médicas colombianas, teniendo en cuenta qué permite, qué establece la normativa y facilita, quién verifica, que procesos se garantizan , qué se analiza y cómo se recopilan los datos, dando explicación de cada uno de estos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

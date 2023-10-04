@@ -33,39 +33,39 @@
           p.mb-4 Las causas de los accidentes domésticos suelen ser:
           .row.justify-content-center
             .col-10
-              .row.align-items-center
-                .col-auto.d-inline
+              .row.justify-content-center.align-items-center
+                .col-lg-auto.col-6.mb-lg-0.mb-4
                   figure
                     img(src='@/assets/curso/img41.svg', style='width: 100px', alt='Imágen decorativa').m-auto
-                .col
+                .col-lg.col-12
                   p.mb-0 Las caídas, debido a suelos resbaladizos, al tratar de alcanzar objetos de forma inadecuada (con una silla, por ejemplo, en lugar de una escalera).
               hr
-              .row.align-items-center
-                .col-auto.d-inline
+              .row.justify-content-center.align-items-center
+                .col-lg-auto.col-6.mb-lg-0.mb-4
                   figure
                     img(src='@/assets/curso/img42.svg', style='width: 100px', alt='Imágen decorativa').m-auto
-                .col
+                .col-lg.col-12
                   p.mb-0 Las intoxicaciones con los productos de limpieza mal etiquetados, reembolsados o al alcance de los niños. También se presentan por mal almacenamiento de medicamentos.
               hr
-              .row.align-items-center
-                .col-auto.d-inline
+              .row.justify-content-center.align-items-center
+                .col-lg-auto.col-6.mb-lg-0.mb-4
                   figure
                     img(src='@/assets/curso/img43.svg', style='width: 100px', alt='Imágen decorativa').m-auto
-                .col
+                .col-lg.col-12
                   p.mb-0 Las quemaduras suelen estar ocasionadas por el contacto o la proyección de objetos y/o líquidos a temperaturas elevadas.
               hr
-              .row.align-items-center
-                .col-auto.d-inline
+              .row.justify-content-center.align-items-center
+                .col-lg-auto.col-6.mb-lg-0.mb-4
                   figure
                     img(src='@/assets/curso/img44.svg', style='width: 100px', alt='Imágen decorativa').m-auto
-                .col
+                .col-lg.col-12
                   p.mb-0 La electrocución puede ocasionarse cuando se manipulan, de forma incorrecta, los elementos eléctricos, introducción de pinzas o ganchos en los enchufes.
               hr
-              .row.align-items-center
-                .col-auto.d-inline
+              .row.justify-content-center.align-items-center
+                .col-lg-auto.col-6.mb-lg-0.mb-4
                   figure
                     img(src='@/assets/curso/img45.svg', style='width: 100px', alt='Imágen decorativa').m-auto
-                .col
+                .col-lg.col-12
                   p.mb-0 Los golpes producidos generalmente con objetos fijos, como, por ejemplo, muebles, puertas y ventanas.
               hr
       .row(titulo="Accidentes de tránsito")
@@ -79,8 +79,33 @@
                   h3.text-regular #[b Un accidente de tránsito es un evento generalmente involuntario, generado al menos por un vehículo en movimiento, que causa daños a personas y bienes involucrados en él, e igualmente afecta la normal circulación de los vehículos que se movilizan por la vía o vías comprendidas en el lugar o dentro de la zona de influencia del hecho.]
                   i.fas.fa-quote-right.d-flex.justify-content-end
           p.mb-5 Los tipos de accidentes de tránsito que se presentan con mayor frecuencia son:
-          figure.mb-5
-            img(src='@/assets/curso/img46.svg', style='width: 950px', alt='Imágen decorativa').m-auto
+          
+          .row.justify-content-center.mb-5
+            .col-xl.col-md-6.col-8.mb-md-0.mb-4
+              .BGR01.h-100.p-lg-5.p-4
+                .row.justify-content-center.mb-4
+                  .col-8
+                    img(src='@/assets/curso/tema4/img01.svg' alt="Imagen decorativa")
+                .h5.text-center.mb-0 Choque o colisión
+            .col-xl.col-md-6.col-8.mb-md-0.mb-4
+              .BGR01.h-100.p-lg-5.p-4
+                .row.justify-content-center.mb-4
+                  .col-8
+                    img(src='@/assets/curso/tema4/img02.svg' alt="Imagen decorativa")
+                .h5.text-center.mb-0 Accidente simple
+            .col-xl.col-md-6.col-8.mb-md-0.mb-4
+              .BGR01.h-100.p-lg-5.p-4
+                .row.justify-content-center.mb-4
+                  .col-8
+                    img(src='@/assets/curso/tema4/img03.svg' alt="Imagen decorativa")
+                .h5.text-center.mb-0 Accidente múltiple
+            .col-xl.col-md-6.col-8.mb-md-0.mb-4
+              .BGR01.h-100.p-lg-5.p-4
+                .row.justify-content-center.mb-4
+                  .col-8
+                    img(src='@/assets/curso/tema4/img04.svg' alt="Imagen decorativa")
+                .h5.text-center.mb-0 Atropello         
+          
           .cajon.color-primario.p-4.mb-4
             p.mb-0 Los accidentes de tránsito son la séptima causa de morbilidad en el planeta y la primera causa de muerte de las personas menores de 40 años a escala mundial. En promedio, 1,3 millones de personas en el mundo mueren al año por accidentes de tránsito.
           p La mayoría de los accidentes de tránsito tienen un factor de riesgo en común, el FACTOR HUMANO:
@@ -173,18 +198,18 @@
         .row.justify-content-center
           p Son lesiones corporales traumáticas que tienen su origen en una causa ajena a la voluntad del deportista, externa, fortuita, súbita y violenta.
           .col-10
-            .row.align-items-center
-              .col-auto.d-inline
+            .row.justify-content-center.align-items-center
+              .col-lg-auto.col-6.mb-lg-0.mb-4
                 figure
                   img(src='@/assets/curso/img50.svg', style='width: 100px', alt='Imágen decorativa').m-auto
-              .col
+              .col-lg.col-12
                 p.mb-0 Por ejemplo, una caída, un impacto contra un objeto -como el poste de una portería- o un choque entre dos deportistas, son ciertamente accidentes deportivos.
             hr
-            .row.align-items-center
-              .col-auto.d-inline
+            .row.justify-content-center.align-items-center
+              .col-lg-auto.col-6.mb-lg-0.mb-4
                 figure
                   img(src='@/assets/curso/img51.svg', style='width: 100px', alt='Imágen decorativa').m-auto
-              .col
+              .col-lg.col-12
                 p.mb-0 Además, se pueden encontrar las lesiones deportivas, que son el resultado de estados crónicos o patológicos como consecuencia de la práctica de cualquier deporte.
             hr
         .cajon.color-primario.p-4

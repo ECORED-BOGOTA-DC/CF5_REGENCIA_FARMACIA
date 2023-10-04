@@ -60,9 +60,10 @@
             .col-12
               p Guantes desechables, tapabocas, linterna, tijeras, termómetro digital, lista de teléfonos de emergencia, incluidos los de la EPS y la ARL, férulas o tablillas, inmovilizadores o cabestrillos, bolsas plásticas para desechos.
       p.my-5(data-aos="fade-left") Además, se recomienda tener en el lugar de trabajo, tablas espinales, collares, material de inmovilización y bioseguridad.
-      .row.align-items-center(data-aos="fade-left")
-        img(src='@/assets/curso/img55.svg', style='width: 131px', alt='Imágen decorativa').px-0
-        .col.p-4
+      .row.justify-content-center.align-items-center(data-aos="fade-left")
+        .col-lg-auto.col-6.mb-lg-0.mb-4  
+          img(src='@/assets/curso/img55.svg', style='width: 131px', alt='Imágen decorativa').px-0
+        .col-lg.col-12.p-4
           p #[b Precaución]:
           ul.lista-ul
             li.d-flex

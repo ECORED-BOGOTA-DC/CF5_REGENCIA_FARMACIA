@@ -157,37 +157,32 @@ export default {
   },
   complementario: [
     {
-      tema: '',
+      tema: 'Normatividad legal vigente para el primer respondiente',
       referencia:
         'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=I4wj61hScUQ',
     },
     {
-      tema: '',
+      tema: 'Normatividad legal vigente para el primer respondiente',
       referencia:
         'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
       tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      link: 'https://www.moebio.uchile.cl/03/frprinci.html',
     },
     {
-      tema: '',
+      tema: 'Normatividad legal vigente para el primer respondiente',
       referencia:
         'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
       tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+      link: 'https://revistas.sena.edu.co/index.php/inf_tec/article/view/71',
     },
     {
-      tema: '',
+      tema: 'Normatividad legal vigente para el primer respondiente',
       referencia: 'Economía de Rosquilla. (s.f.).',
       tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      tema: '',
-      referencia: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      link:
+        'https://thetowerofscience.com/resumenes-de-libros/resumen-del-libro-economia-rosquilla-7-maneras-de-pensar-la-economia-del-siglo-xxi-por-kate-raworth-2018-doughnut-economics-seven-ways-to-think-like-a-21st-century-economist-2017/',
     },
   ],
   glosario: [

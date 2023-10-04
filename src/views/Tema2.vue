@@ -19,7 +19,7 @@
     #t_2_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.1 ¿Qué es el SEM?
-    p.mb-5(data-aos="fade-left") Conozcamos, con ayuda de la siguiente imagen, qué es el SEM y cómo está conformado.
+    p.mb-5(data-aos="fade-left") De acuerdo con la siguiente información, verifiquemos qué es el SEM y cómo está conformado.
     h5.mb-5(data-aos="fade-right") Sistema de Emergencias Médicas (SEM)
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5(data-aos="flip-left")

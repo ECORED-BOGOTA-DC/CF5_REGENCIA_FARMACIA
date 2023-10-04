@@ -87,40 +87,57 @@
           p Las formas en que se presenta la culpa son:
           .row.justify-content-center
             .col-11
-              .row.align-items-center
-                .col-auto.d-inline
+              .row.justify-content-center.align-items-center
+                .col-lg-auto.col-6.mb-lg-0.mb-4
                   figure
                     img(src='@/assets/curso/img7.svg', style='width: 100px', alt='Imágen decorativa')
-                .col
+                .col-lg.col-12
                   p.mb-0 #[b Negligencia]:  indolencia en el actuar. Olvido consciente, descuido por ineptitud, o dejar de cumplir con un acto que exige el deber práctico. En cuanto a materia penal, es condenable. #[b Por ejemplo]: extraer de un vehículo accidentado al lesionado sin ningún tipo de ayuda o dispositivo médico, acción que genere complicaciones o secuelas posteriores.
               hr
-              .row.align-items-center
-                .col-auto.d-inline
+              .row.justify-content-center.align-items-center
+                .col-lg-auto.col-6.mb-lg-0.mb-4
                   figure
                     img(src='@/assets/curso/img8.svg', style='width: 100px', alt='Imágen decorativa')
-                .col
+                .col-lg.col-12
                   p.mb-0 #[b Imprudencia]: condenable e inadmisible negligencia, y descuido de las precauciones que la prudencia ordinaria aconseja, y que encauza a ejecutar actos que se llevan a cabo sin la diligencia correspondiente y que son presumibles desde un punto de vista objetivo, siendo considerados como delito. #[b Por ejemplo]: en un accidente de motocicleta, retirar el casco del lesionado para saber si está sangrando.
               hr
-              .row.align-items-center
-                .col-auto.d-inline
+              .row.justify-content-center.align-items-center
+                .col-lg-auto.col-6.mb-lg-0.mb-4
                   figure
                     img(src='@/assets/curso/img9.svg', style='width: 100px', alt='Imágen decorativa')
-                .col
+                .col-lg.col-12
                   p.mb-0 #[b Impericia]: insuficiencia de pericia, sabiduría, práctica, experiencia y habilidad en una ciencia o un arte. #[b Por ejemplo]: aplicar o utilizar un torniquete en una lesión hemorrágica leve, sin tener la habilidad técnica de realizarlo, puede generar la pérdida o amputación del miembro afectado.
               hr
-              .row.align-items-center
-                .col-auto.d-inline
+              .row.justify-content-center.align-items-center
+                .col-lg-auto.col-6.mb-lg-0.mb-4
                   figure
                     img(src='@/assets/curso/img10.svg', style='width: 100px', alt='Imágen decorativa')
-                .col
+                .col-lg.col-12
                   p.mb-0 #[b Abandono]: después de iniciada la atención, esta se debe seguir proporcionando hasta que la responsabilidad por la salud del paciente sea transferida a un profesional competente de un nivel igual o superior. #[b Por ejemplo]: cuando se aplica un medicamento con o sin fórmula médica, la persona inicia una reacción anafiláctica, aparentemente leve, y se deja ir para su residencia, donde muere por paro respiratorio.
       div(titulo="Dolo")
         .row
           .col-12
             p El Código Penal Colombiano establece en su artículo 22 la definición de dolo, como: la conducta de realizar cualquier hecho constitutivo de infracción penal, de forma intencional.
             p.mb-5 Existen tres tipos de dolo:
-            figure.mb-5
-              img(src='@/assets/curso/img11.svg', style='width: 850px', alt='Imágen decorativa').m-auto
+            .row.justify-content-center.mb-5
+              .col-xl-3.col-md-4.col-8.mb-md-0.mb-4
+                .BGR01.h-100.p-lg-5.p-4
+                  .row.justify-content-center.mb-4
+                    .col-8
+                      img(src='@/assets/curso/tema1/img01.svg' alt="Imagen decorativa")
+                  .h5.text-center.mb-0 Dolo en primer grado
+              .col-xl-3.col-md-4.col-8.mb-md-0.mb-4
+                .BGR01.h-100.p-lg-5.p-4
+                  .row.justify-content-center.mb-4
+                    .col-8
+                      img(src='@/assets/curso/tema1/img02.svg' alt="Imagen decorativa")
+                  .h5.text-center.mb-0 Dolo en segundo grado
+              .col-xl-3.col-md-4.col-8.mb-md-0.mb-4
+                .BGR01.h-100.p-lg-5.p-4
+                  .row.justify-content-center.mb-4
+                    .col-8
+                      img(src='@/assets/curso/tema1/img03.svg' alt="Imagen decorativa")
+                  .h5.text-center.mb-0 Dolo eventual
             .cajon.color-primario.p-4
               p.mb-0 Es importante señalar que para que exista dolo, la persona debe tener comprensión y decisión de la acción que se va a llevar a cabo, lo que en consecuencia origina un daño o perjuicio a otro ser humano; igualmente, el omitir una acción que va a causar daño o lesión a otro, se considera dolo. Esto quiere decir que el autor quería realizar la acción y que se generará una consecuencia en perjuicio del otro.
       div(titulo="Actitud")
@@ -131,22 +148,37 @@
             p Esto se puede interpretar como la disposición que tiene el auxiliador para ayudar a las personas que lo necesitan. 
             p.mb-5 La actitud posee factores que pueden interferir y modificar la naturaleza o la intención, tales como:
 
-            .row.justify-content-center.align-items-center.mb-5
-              .col-6.col-lg-2
-                figure
-                  img(src='@/assets/curso/img12-1.svg', alt='Imágen decorativa')
-              .col-6.col-lg-2
-                figure
-                  img(src='@/assets/curso/img12-2.svg', alt='Imágen decorativa')
-              .col-6.col-lg-2
-                figure
-                  img(src='@/assets/curso/img12-3.svg', alt='Imágen decorativa')
-              .col-6.col-lg-2
-                figure
-                  img(src='@/assets/curso/img12-4.svg', alt='Imágen decorativa')
-              .col-6.col-lg-2
-                figure
-                  img(src='@/assets/curso/img12-5.svg', alt='Imágen decorativa')                                    
+            .row.justify-content-center.mb-5
+              .col-xl.col-md-6.col-8.mb-md-0.mb-4
+                .BGR01.h-100.p-lg-5.p-4
+                  .row.justify-content-center.mb-4
+                    .col-8
+                      img(src='@/assets/curso/tema1/img04.svg' alt="Imagen decorativa")
+                  .h5.text-center.mb-0 Estado de animo
+              .col-xl.col-md-6.col-8.mb-md-0.mb-4
+                .BGR01.h-100.p-lg-5.p-4
+                  .row.justify-content-center.mb-4
+                    .col-8
+                      img(src='@/assets/curso/tema1/img05.svg' alt="Imagen decorativa")
+                  .h5.text-center.mb-0 Conocimientos previos
+              .col-xl.col-md-6.col-8.mb-md-0.mb-4
+                .BGR01.h-100.p-lg-5.p-4
+                  .row.justify-content-center.mb-4
+                    .col-8
+                      img(src='@/assets/curso/tema1/img06.svg' alt="Imagen decorativa")
+                  .h5.text-center.mb-0 Valores éticos y morales
+              .col-xl.col-md-6.col-8.mb-md-0.mb-4
+                .BGR01.h-100.p-lg-5.p-4
+                  .row.justify-content-center.mb-4
+                    .col-8
+                      img(src='@/assets/curso/tema1/img07.svg' alt="Imagen decorativa")
+                  .h5.text-center.mb-0 Recurso disponible
+              .col-xl.col-md-6.col-8.mb-md-0.mb-4
+                .BGR01.h-100.p-lg-5.p-4
+                  .row.justify-content-center.mb-4
+                    .col-8
+                      img(src='@/assets/curso/tema1/img08.svg' alt="Imagen decorativa")
+                  .h5.text-center.mb-0 Entorno                    
 
             p Todas las acciones del primer respondiente deben enfocarse hacia la autoprotección, proteger a otros auxiliares, y ayudar al lesionado, para evitar al máximo secuelas, complicaciones, o lesiones posteriores.
             .row.align-items-center
@@ -189,8 +221,43 @@
         .row
           .col-12
             p.mb-5 El respeto es advertido por el lesionado, por los familiares, por la autoridad y por todas las personas que se encuentran en el entorno. Durante una emergencia, algunas de las personas involucradas pueden presentar pánico; esto los llevará a sentirse extremadamente susceptibles hacia cualquier acción del entorno.
-            figure
-              img(src='@/assets/curso/img15.svg', style='width: 1250px', alt='Imágen decorativa').m-auto
+            .BG02.w-100.py-2.px-5.mb-2
+              .h3.text-white.text-center.mb-2 El buen auxiliador demuestra respeto haciendo uso de las siguientes
+              .h3.text-white.text-center.mb-0 opciones:
+            .row.justify-content-center
+              .col-lg-3.col-md-6.px-1.mb-lg-0.mb-4
+                .BG04.h-100
+                  figure 
+                    img(src='@/assets/curso/tema1/img09.svg' alt="Imagen decorativa")
+                  .BG03.w-100.p-3
+                    .h3.text-center.mb-0 Al acercarse
+                  .p-4
+                    p.mb-0 Presentarse al lesionado y a las demás personas presentes, como auxiliador, demostrando que su única intención es la de ayudar.
+              .col-lg-3.col-md-6.px-1.mb-lg-0.mb-4
+                .BG05.h-100
+                  figure 
+                    img(src='@/assets/curso/tema1/img10.svg' alt="Imagen decorativa")
+                  .BG03.w-100.p-3
+                    .h3.text-center.mb-0 Al mirar
+                  .p-4
+                    p.mb-0 Enfoca inicialmente la mirada hacia los ojos del lesionado, evitando reflejos intimidatorios que hagan sentir vulnerable, al lesionado; esto quiere decir: no mover los ojos como cuando el hombre observa el pronunciado escote de una mujer. Mantener actitud neutral, no de sorpresa o impresión negativa. 
+              .col-lg-3.col-md-6.px-1.mb-lg-0.mb-4
+                .BG04.h-100
+                  figure 
+                    img(src='@/assets/curso/tema1/img11.svg' alt="Imagen decorativa")
+                  .BG03.w-100.p-3
+                    .h3.text-center.mb-0 Al tocarse
+                  .p-4
+                    p.mb-0 Solicitar permiso para tocar cualquier parte del cuerpo del lesionado, principalmente si estas son cercanas a los genitales; no toque por demás, no desvista, no se apropie de las pertenencias ajenas. 
+              .col-lg-3.col-md-6.px-1.mb-lg-0.mb-4
+                .BG05.h-100
+                  figure 
+                    img(src='@/assets/curso/tema1/img12.svg' alt="Imagen decorativa")
+                  .BG03.w-100.p-3
+                    .h3.text-center.mb-0 Al hablar
+                  .p-4
+                    p.mb-0 Tener precaución con las palabras, no generar comentarios susceptibles a dobles interpretaciones, no juzgar; en lo posible, evitar o no realizar comentarios referentes a las heridas y el estado del lesionado. El tono de voz debe ser fuerte, pero que no se interprete como un grito.
+            
       div(titulo="Responsabilidad")
         .row.align-items-center
           .col-8
@@ -217,7 +284,7 @@
             .cajon.color-primario.p-4.mb-4
               .h5 ¿Piensa que usted puede aprovechar los beneficios de una buena actitud, como primer respondiente? 
               p Si su respuesta es positiva y se encuentra dispuesto a brindar ayuda a quien lo necesite, de la misma forma que usted desea recibir, la invitación es para que se apropie del siguiente compromiso:
-          .col-4
+          .col-lg-4
             a.anexo.mb-4(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg", alt='Imágen decorativa')
@@ -246,8 +313,24 @@
               .row(numero="2" titulo="Número de emergencia")
                 .col-12
                   p Es una línea única de emergencia nacional que agrupa todos los números de seguridad y emergencias de:
-                  figure
-                    img(src='@/assets/curso/img19.svg', style='width: 550px', alt='Imágen decorativa').m-auto
+                  .row.justify-content-center
+                    .col-lg-3.col-6.mb-lg-0.mb-4
+                      figure.mb-2
+                        img(src='@/assets/curso/tema1/img13.svg' alt="Imagen decorativa")
+                      .h5.text-center.mb-0 Policia
+                    .col-lg-3.col-6.mb-lg-0.mb-4
+                      figure.mb-2
+                        img(src='@/assets/curso/tema1/img14.svg' alt="Imagen decorativa")
+                      .h5.text-center.mb-0 Bomberos
+                    .col-lg-3.col-6.mb-lg-0.mb-4
+                      figure.mb-2
+                        img(src='@/assets/curso/tema1/img15.svg' alt="Imagen decorativa")
+                      .h5.text-center.mb-0 Movilidad
+                    .col-lg-3.col-6.mb-lg-0.mb-4
+                      figure.mb-2
+                        img(src='@/assets/curso/tema1/img16.svg' alt="Imagen decorativa")
+                      .h5.text-center.mb-2 Gestión de 
+                      .h5.text-center.mb-0 Riesgos
               .row(numero="3" titulo="Objetivo")
                 .col-12
                   p Garantizar una respuesta adecuada, oportuna, efectiva y coordinada, en situaciones de urgencias, emergencias y desastres, desde las diferentes entidades que se encuentran incluidas en el sistema, para la prevención, atención y despacho de recursos físicos.
@@ -300,7 +383,7 @@
             figure(data-aos="fade-right")
               img(src='@/assets/curso/img3.png', style='width: 270px', alt='Imágen decorativa').m-auto
         .cajon.color-primario.p-4(data-aos="flip-down")
-          p.mb-0 Es importante recordar que la prioridad de atención, de esta línea, son las urgencias críticas. Una vida humana puede depender de una llamada telefónica, por lo tanto es importante no congestionar la línea 123 con llamadas innecesarias. En el mismo lugar del evento y mientras llega el equipo especializado, iniciar la primera ayuda: activar la línea de emergencia, tener toda la información posible de manera inmediata y seguir las instrucciones telefónicas del equipo de salud.
+          p.mb-0 Es importante recordar que la prioridad de atención, de esta línea, son las urgencias críticas. Una vida humana puede depender de una llamada telefónica, por lo tanto, es importante no congestionar la línea 123 con llamadas innecesarias. En el mismo lugar del evento y mientras llega el equipo especializado, iniciar la primera ayuda: activar la línea de emergencia, tener toda la información posible de manera inmediata y seguir las instrucciones telefónicas del equipo de salud.
     separador
     #t_1_4
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")

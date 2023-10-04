@@ -10,7 +10,7 @@
       .col-lg-8.mb-4.mb-lg-5
         .h5(data-aos="fade-right") ¿Sabías que el riesgo es la posibilidad que se presenta para convertir una amenaza en una desgracia?
         .cajon.color-primario.p-4.mb-4(data-aos="flip-down")
-          p.mb-0 Es importante comprender que la vulnerabilidad o la intimidación, por separado, no representan ningún tipo de peligro pero, si se combinan, se convierten en un riesgo, o sea, en la posibilidad para que un desastre se manifieste.
+          p.mb-0 Es importante comprender que la vulnerabilidad o la intimidación, por separado, no representan ningún tipo de peligro, pero si se combinan, se convierten en un riesgo, o sea, en la posibilidad para que un desastre se manifieste.
         p.mb-5(data-aos="fade-left") La siguiente imagen nos presenta una representación gráfica de lo explicado anteriormente.
         .titulo-sexto.color-primario.mb-4(data-aos="fade-right")
           h5 Figura 2
@@ -66,8 +66,36 @@
               .p-4
                 h2 Delimitación y señalización
                 p La labor de delimitación del área de riesgo, debe llevarse a cabo por el conductor, quien utilizará señales luminosas, conos, cintas o banderas reflectivas y debe dejar acceso para otros vehículos que ayuden con la emergencia. La delimitación debe incluir la zona de impacto o área crítica (donde solo deben acceder los grupos de salvamento, búsqueda y rescate) el puesto de avanzada (en el límite de la anterior), lugar donde se ubica el primer nivel de mando, y la zona de seguridad, que permita delimitar el acceso a curiosos y a personas que no sean precisas en el manejo de la emergencia.
-    figure.mb-5(data-aos="fade-left")
-      img(src='@/assets/curso/img34.svg', style='width: 1200px', alt='Imágen decorativa').m-auto
+    
+    
+    .BG02.w-100.py-3.px-5.mb-2(data-aos="fade-left")
+      .h3.text-white.text-center.mb-0 Cuando nos encontramos con un accidente de tránsito:
+    .row.justify-content-center.mb-5
+      .col-lg-3.col-md-6.px-1.mb-lg-0.mb-4(data-aos="fade-right")
+        .BG04.h-100
+          figure 
+            img(src='@/assets/curso/tema3/img01.svg' alt="Imagen decorativa")
+          .p-4
+            p.mb-0 Se debe constatar el posible derrame de gasolina y de aceite, señalizar su presencia y solicitar la cooperación de los espectadores, para que los cubran con tierra o arena mientras arriba el apoyo de unidades contra incendios. No se debe fumar ni permitirlo en las cercanías del accidente. 
+      .col-lg-3.col-md-6.px-1.mb-lg-0.mb-4(data-aos="flip-right")
+        .BG05.h-100
+          figure 
+            img(src='@/assets/curso/tema3/img02.svg' alt="Imagen decorativa")
+          .p-4
+            p.mb-0 En caso de niebla, extremar la protección, la señalización y la iluminación. Si se presenta fuego en los vehículos y no hay bomberos en el lugar, se debe intentar apagarlo con el extintor de polvo químico seco de nuestro vehículo. 
+      .col-lg-3.col-md-6.px-1.mb-lg-0.mb-4(data-aos="flip-left")
+        .BG04.h-100
+          figure 
+            img(src='@/assets/curso/tema3/img03.svg' alt="Imagen decorativa")
+          .p-4
+            p.mb-0 Si se presentan varias personas entrenadas en primeros auxilios, uno de ellos debe realizar señas a los vehículos con el fin de evitar o disminuir embotellamientos en el área del accidente.
+      .col-lg-3.col-md-6.px-1.mb-lg-0.mb-4(data-aos="fade-left")
+        .BG05.h-100
+          figure 
+            img(src='@/assets/curso/tema3/img04.svg' alt="Imagen decorativa")
+          .p-4
+            p.mb-0 El primer respondiente de emergencias podrá realizar una evacuación rápida del lesionado, siempre y cuando la amenaza sea inminente y dicha evacuación no ponga en peligro la integridad del auxiliador.
+
     .cajon.color-primario.p-4.mb-4(data-aos="flip-down")
       p.mb-0 #[b #[i En general, los pacientes que se encuentren en situación de peligro, deben ser movilizados a un lugar seguro antes de empezar la valoración y el tratamiento.]]
     p(data-aos="fade-right") Si se encuentra en situaciones de violencia, asonada, aglomeración en pánico o estampida, es imperativo prepararse de inmediato para abandonar el lugar.
@@ -86,7 +114,7 @@
               p Si la situación se torna amenazante mientras usted atiende al paciente, emplee su pericia verbal para distraer y reducir la tensión y el riesgo de agresión (mientras se prepara para abandonar el lugar).
           .row(titulo="Defiéndase")
             .col-12
-              p El profesional prehospitalario puede llegar a necesitar defenderse. Es fundamental que los esfuerzos se limiten a «liberarse y huir». No intentar perseguir o vencer a un adversario agresivo. Asegure que los profesionales de la ley reciban el aviso respectivo y acudan para atenderlo. En esta oportunidad, la seguridad de los profesionales también es la máxima prioridad”.
+              p El profesional prehospitalario puede llegar a necesitar defenderse. Es fundamental que los esfuerzos se limiten a «liberarse y huir». No intentar perseguir o vencer a un adversario agresivo. Asegure que los profesionales de la ley reciban el aviso respectivo y acudan para atenderlo. En esta oportunidad, la seguridad de los profesionales también es la máxima prioridad.
       .col-lg-4
         figure(data-aos="fade-right")
           img(src='@/assets/curso/img35.svg', style='width: 270px', alt='Imágen decorativa').m-auto
